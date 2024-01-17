@@ -17,18 +17,17 @@ Simulate an embedded system designed for temperature control, leveraging virtual
    - Observe how the actuator responds to PID control signals and adjusts the temperature accordingly.
 
 4. **Real-Time Visualization:**
-   - Develop a graphical interface for real-time visualization of temperature, setpoints, and control signals.
-   - Provide user-friendly controls to interact with the system, such as setting desired temperature targets.
+   - graphical interface for real-time visualization of temperature, setpoints, and control signals.
+   - user-friendly controls to interact with the system, such as setting desired temperature targets.
 
 ## Technologies Used
 1. **Simulation Tool:**
-   - simulation tools such as Proteus, Simulink, or a platform of your choice to create the virtual embedded system.
+   - simulation tools such as Proteus, Simulink etc to create the virtual embedded system.
 
 2. **Programming Language:**
     programming language like C, Python, or a language compatible with the chosen simulation tool to implement the PID controller and system logic.
 
 3. **Graphical User Interface (GUI):**
-   
 
 ## Acknowledgements
 
