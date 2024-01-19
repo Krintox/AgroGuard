@@ -1,82 +1,63 @@
-# Embedded System for Temperature Control
+# Weed Detection and Automated Herbicide Application Simulation
 
 ## Overview
-Simulate an embedded system designed for temperature control, leveraging virtual sensors and actuators. Explore the implementation of a PID controller algorithm for precise temperature regulation.
 
-## Features
-1. **Virtual Temperature Sensor:**
-   - Simulate a temperature sensor to provide input data for the embedded system.
-   - Introduce variations in the simulated ambient temperature to test the system's responsiveness.
+This project simulates an automated weed detection and herbicide application system for agricultural fields. The simulation involves capturing virtual images of a crop field, processing the images to detect weeds, and triggering automated herbicide application in response to weed detection.
 
-2. **PID Controller Algorithm:**
-   - Implement a Proportional-Integral-Derivative (PID) controller for accurate and stable temperature control.
-   - Fine-tune PID parameters to optimize the system's response to changes in temperature.
+## Components and Features
 
-3. **Actuator Simulation:**
-   - Simulate an actuator (e.g., a heater or cooler) to control the virtual environment's temperature.
-   - Observe how the actuator responds to PID control signals and adjusts the temperature accordingly.
+1. **Virtual Crop Field Models:**
+   - Simulated environment with various crops, including weed infestations.
 
-4. **Real-Time Visualization:**
-   - graphical interface for real-time visualization of temperature, setpoints, and control signals.
-   - user-friendly controls to interact with the system, such as setting desired temperature targets.
+2. **Virtual Imaging System:**
+   - Model of a virtual imaging system for capturing images of the crop field.
 
-## Technologies Used
-1. **Simulation Tool:**
-   - simulation tools such as Proteus, Simulink etc to create the virtual embedded system.
+3. **Embedded System Simulation:**
+   - Simulation of a microcontroller-based embedded system responsible for image processing, weed detection, and herbicide application control.
 
-2. **Programming Language:**
-    programming language like C, Python, or a language compatible with the chosen simulation tool to implement the PID controller and system logic.
+4. **Weed Detection Algorithms:**
+   - Implementation of image processing algorithms to identify the presence of weeds in simulated crop images.
 
-3. **Graphical User Interface (GUI):**
+5. **Automated Herbicide Application:**
+   - Simulation of the automated release of herbicide in response to detected weed locations in the virtual field.
 
-## Acknowledgements
+6. **User Interface:**
+   - Development of a user interface to display simulated crop images, highlight detected weeds, and provide information on herbicide application.
 
-## Contributors
+## Simulation Tools and Languages
+
+1. **Simulation Tools:**
+   - Utilization of Proteus for hardware simulation, modeling the behavior of the embedded system and imaging components.
+
+2. **Microcontroller Simulation:**
+   - Simulation of a microcontroller (Arduino or Raspberry Pi) within Proteus.
+
+3. **Programming Language:**
+   - Use of C/C++ for simulating microcontroller behavior and implementing image processing algorithms.
+
+## How to Run the Simulation
+
+1. **Install Proteus:**
+   - Download and install Proteus from [Proteus Official Website](https://www.labcenter.com/).
+
+2. **Open Project File:**
+   - Open the project file `weed_detection_simulation.pdsprj` in Proteus.
+
+3. **Run Simulation:**
+   - Start the simulation to observe the virtual crop field, weed detection, and automated herbicide application.
 
 ## Use Cases
 
-### 1. HVAC System Testing for Buildings
+1. **Image Capture and Weed Detection Simulation:**
+   - Simulate the process of capturing images of the crop field and identifying weed locations.
 
-**Objective:** Optimize the performance of a Heating, Ventilation, and Air Conditioning (HVAC) system for a commercial building.
+2. **Automated Herbicide Application Simulation:**
+   - Simulate the release of herbicide in response to detected weed locations in the virtual environment.
 
-**Implementation:**
-- Simulate HVAC components, including temperature sensors, actuators, and a central control system.
-- Implement PID controller for precise temperature regulation based on external factors.
-- Experiment with different control strategies in a virtual environment before actual deployment.
+3. **User Interaction:**
+   - Interact with the simulation by viewing processed images, identified weeds, and observing the automated herbicide application.
 
-**Benefits:**
-- Cost-effective testing before physical prototypes.
-- Scenario testing for extreme weather conditions or occupancy scenarios.
-- Iterative optimization of PID controller for efficient temperature regulation.
+## Contributors
 
-### 2. Agricultural Climate Control
-
-**Objective:** Optimize temperature conditions for greenhouse or controlled environment agriculture.
-
-**Implementation:**
-- Simulate temperature sensors and actuators controlling heating or cooling elements.
-- Implement PID control to maintain optimal temperature for plant growth.
-- Test and refine control strategies for energy-efficient climate management.
-
-**Benefits:**
-- Fine-tune temperature control for specific crops.
-- Assess system responsiveness to changing environmental conditions.
-- Efficiently manage energy consumption in agricultural settings.
-
-### 3. Laboratory Equipment Testing
-
-**Objective:** Ensure precise temperature control for laboratory experiments and equipment.
-
-**Implementation:**
-- Simulate temperature-sensitive equipment and control systems.
-- Implement PID controller to maintain stable temperatures during experiments.
-- Test the system's response to sudden changes or fluctuations in the laboratory environment.
-
-**Benefits:**
-- Validate and optimize temperature control for sensitive experiments.
-- Safeguard equipment from temperature-related damage.
-- Enhance user interface for laboratory staff to monitor and adjust temperature settings.
-
-
-## Conclusion
-This project provides a hands-on experience in simulating embedded systems, integrating sensors, actuators, and control algorithms. It also allows for the exploration of real-time visualization and user interface design in the context of temperature control.
+- Shashank Suggala(https://github.com/Krintox)
+- Devang Joshi(https://github.com/)
