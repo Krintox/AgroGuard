@@ -48,5 +48,5 @@ This project simulates an automated weed detection and herbicide application sys
 
 ## Contributors
 
-- Shashank Suggala(https://github.com/Krintox)
-- Devang Joshi(https://github.com/)
+- [Shashank Suggala](https://github.com/Krintox)
+- [Devang Joshi](https://github.com/)
