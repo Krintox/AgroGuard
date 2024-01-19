@@ -30,21 +30,10 @@ This project simulates an automated weed detection and herbicide application sys
    - Utilization of Proteus for hardware simulation, modeling the behavior of the embedded system and imaging components.
 
 2. **Microcontroller Simulation:**
-   - Simulation of a microcontroller (Arduino or Raspberry Pi) within Proteus.
+   - Simulation of a microcontroller (Arduino or Raspberry Pi or any relevant mc) within Proteus.
 
 3. **Programming Language:**
    - Use of C/C++ for simulating microcontroller behavior and implementing image processing algorithms.
-
-## How to Run the Simulation
-
-1. **Install Proteus:**
-   - Download and install Proteus from [Proteus Official Website](https://www.labcenter.com/).
-
-2. **Open Project File:**
-   - Open the project file `weed_detection_simulation.pdsprj` in Proteus.
-
-3. **Run Simulation:**
-   - Start the simulation to observe the virtual crop field, weed detection, and automated herbicide application.
 
 ## Use Cases
 
