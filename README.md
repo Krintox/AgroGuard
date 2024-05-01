@@ -1,52 +1,44 @@
-# Weed Detection and Automated Herbicide Application Simulation
+# AgroGaurd
+
+AgroGaurd is an IoT-based smart agricultural system designed to monitor and control various environmental factors affecting plant growth. It utilizes sensors and modules for real-time data collection and automation of irrigation and climate control processes.
 
 ## Overview
 
-This project simulates an automated weed detection and herbicide application system for agricultural fields. The simulation involves capturing virtual images of a crop field, processing the images to detect weeds, and triggering automated herbicide application in response to weed detection.
+AgroGaurd connects to the internet and uses sensors to gather real-time data on temperature, soil moisture, and rain detection. It employs automation to regulate irrigation, adjust climate conditions, and notify users of critical events through GSM communication.
 
-## Components and Features
+## Simulation
 
-1. **Virtual Crop Field Models:**
-   - Simulated environment with various crops, including weed infestations.
+The project is simulated using Proteus, a virtual prototyping software. The simulation environment allows testing and validation of the AgroGaurd system before real-world implementation.
 
-2. **Virtual Imaging System:**
-   - Model of a virtual imaging system for capturing images of the crop field.
+## Components Used
 
-3. **Embedded System Simulation:**
-   - Simulation of a microcontroller-based embedded system responsible for image processing, weed detection, and herbicide application control.
+- **Soil Moisture Sensor**: Measures the moisture content of the soil.
+- **ADC Module**: Converts analog signals from sensors to digital data.
+- **LCD Display Module**: Displays real-time data and system status.
+- **Temperature Sensor**: Measures ambient temperature.
+- **Relay Module (RL1)**: Controls the irrigation system based on sensor readings.
+- **Rain Sensor**: Detects the presence of rain.
+- **GSM Module**: Enables communication for alerts and notifications.
 
-4. **Weed Detection Algorithms:**
-   - Implementation of image processing algorithms to identify the presence of weeds in simulated crop images.
+## Installation and Setup
 
-5. **Automated Herbicide Application:**
-   - Simulation of the automated release of herbicide in response to detected weed locations in the virtual field.
+1. Install Proteus simulation software on your computer.
+2. Open the AgroGaurd simulation project file.
+3. Connect the virtual components as per the schematic diagram.
+4. Run the simulation to observe system behavior and test functionalities.
 
-6. **User Interface:**
-   - Development of a user interface to display simulated crop images, highlight detected weeds, and provide information on herbicide application.
+## Usage
 
-## Simulation Tools and Languages
+1. Power on the simulation environment.
+2. Monitor the LCD display for real-time data updates.
+3. Observe how the system reacts to changes in environmental conditions.
+4. Test the irrigation and climate control automation features.
+5. Verify GSM communication for receiving notifications.
 
-1. **Simulation Tools:**
-   - Utilization of Proteus for hardware simulation, modeling the behavior of the embedded system and imaging components.
+### Contributors
+- [Shashank Suggala 21BDS0268](https://github.com/Krintox)
+- [Devang Joshi 21BDS0275](https://github.com/)
 
-2. **Microcontroller Simulation:**
-   - Simulation of a microcontroller (Arduino or Raspberry Pi or any relevant mc) within Proteus.
+## License
 
-3. **Programming Language:**
-   - Use of C/C++ for simulating microcontroller behavior and implementing image processing algorithms.
-
-## Use Cases
-
-1. **Image Capture and Weed Detection Simulation:**
-   - Simulate the process of capturing images of the crop field and identifying weed locations.
-
-2. **Automated Herbicide Application Simulation:**
-   - Simulate the release of herbicide in response to detected weed locations in the virtual environment.
-
-3. **User Interaction:**
-   - Interact with the simulation by viewing processed images, identified weeds, and observing the automated herbicide application.
-
-## Contributors
-
-- [Shashank Suggala](https://github.com/Krintox)
-- [Devang Joshi](https://github.com/)
+This project is licensed under the [MIT License](LICENSE).
